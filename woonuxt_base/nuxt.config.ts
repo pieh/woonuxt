@@ -29,6 +29,10 @@ export default defineNuxtConfig({
     '@nuxtjs/i18n',
   ],
 
+  image: {
+    domains: ['https://secure.woonuxt.com/'],
+  },
+
   'graphql-client': {
     clients: {
       default: {
